@@ -20,6 +20,8 @@ function App() {
       <Row title="Horror Movies" fetchUrl={requests.fetchComedyMovies}/>
       <Row title="Romance Movies" fetchUrl={requests.fetchHorrorMovies}/>
       <Row title="Documentaries" fetchUrl={requests.fetchDocuentaries}/>
+      
+      <h3 className="copy-right"><p >Copy©Right® by 💖 Sandeep Kumar Misra 💖</p></h3>
 
     </div>
   );
